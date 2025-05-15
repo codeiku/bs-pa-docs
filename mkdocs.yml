@@ -1,0 +1,90 @@
+##################
+#### SETTINGS ####
+##################
+# Site details
+site_name: Parameters Analyzer by Dataiku
+site_author: Romain Menini, Nicolas Mauhé, Hela Othmani, Yves Darmaillac, Pim Nauts
+site_description: >-
+  Parameters Analyzer by Dataiku allows you to quickly analyze production defects based on machine data to find potential performance improvements.
+# Copyright
+copyright: Copyright &copy; 2025 Dataiku
+# configs
+theme:
+  name: material
+  logo: assets/dku_logo_white.svg
+  custom_dir: overrides
+  favicon: assets/favicon.png
+  font: 
+    text: Source Sans 3
+    code: Source Code Pro
+  features:
+    - header.autohide
+    - search.highlight #shows search matches highlighted
+    - search.suggest #includes suggestions
+    - search.share #includes sharing
+    - toc.follow
+    - navigation.footer
+    - navigation.instant
+    - search.share
+    - announce.dismiss
+    #- navigation.tabs #will put the navigation in tabs instead of left
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy    
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    
+# Additional configuration
+extra:
+  generator: false
+  social:
+    - icon: material/view-gallery
+      link: ../
+    - icon: material/link
+      link: https://www.dataiku.com/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/dataiku/      
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - admonition
+####################
+#### NAVIGATION ####
+####################
+nav:
+  - Overview: index.md
+  - Usage:
+      - Walkthrough: walkthrough.md
+      - Data Preparation: data-prep.md
+      - Flow: flow.md
+      - Case Study: case-study.md
+  - Advanced:
+      - Data Model: data-model.md
+      - Methodology: methodology.md
+      - Scenario: scenario.md
+      - Variables: variables.md
+      - Processing Mode: processing-mode.md
+      - Technical requirements: technical-requirements.md
+      - Performance & Limitations: performance-limitations.md
+  - Other:
+      - Release notes: release-notes.md
+      - Legal: legal.md
