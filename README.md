@@ -6,6 +6,8 @@ The source and build/deploy for Parameters Analyzer docs. Uses
 - Material theme
 - Some customizations
 
+![very nice](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWlwa3l0bzJrOXF1eHB4YWt3MzZ2am51eW50aWoyeHp0NGFpZm92aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Od0QRnzwRBYmDU3eEO/giphy.gif)
+
 ## Set up 
 * Create virtual env
 * Install reqs
