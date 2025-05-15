@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-get-deps==0.2.0 mkdocs-glightbox==0.4.0 mkdocs-material==9.6.12 mkdocs-material-extensions==1.3.1
       - name: Build Docs
-        run: cd docs && mkdocs build
+        run: mkdocs build
         
       - name: Commit changes
         run: |
